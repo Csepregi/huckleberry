@@ -1,12 +1,66 @@
 * {
   box-sizing: border-box;
-  font-family: 'Lato', sans-serif;
+  font-family: "Lato", sans-serif;
 }
 
 html,
 body {
   margin: 0;
-  padding: 0;
 }
 
 /* Add styles here! */
+
+.max-width-wrapper {
+  padding-left: 264px;
+  padding-top: 96px;
+}
+
+.title {
+  size: 4rem;
+  width: 180px;
+  font-weight: 800;
+}
+
+.subtitle {
+  width: 415px;
+  size: 2.5rem;
+  font-weight: 400;
+}
+
+.subtitle p:first-of-type {
+  margin-top: 48px;
+}
+
+.subtitle strong {
+  color: #009966;
+}
+
+section.max-width-wrapper {
+  background-color: #666666;
+  padding-left: 240px;
+  padding-right: 240px;
+  padding-top: 72px;
+  padding-bottom: 66px;
+  margin-top: 64px;
+}
+
+.card {
+  max-width: 800px;
+  height: 321px;
+  background-color: #ffffff;
+  border: 1px solid #999999;
+  border-bottom: 8px solid #999999;
+}
+
+.indented-heading {
+  width: 398px;
+  background-color: #ffbf00;
+  padding: 16px;
+  margin-left: -8px;
+  margin-top: 8px;
+  border: 1px solid #cc9900;
+}
+
+.card p {
+  padding: 0 24px;
+}
