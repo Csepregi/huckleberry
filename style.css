@@ -10,21 +10,40 @@ body {
 
 /* Add styles here! */
 
+header {
+  border-bottom: 8px solid hsl(0deg 0% 60%);
+}
+
+p {
+  font-size: 1.25rem; /* 20 / 16 = 1.25 */
+  line-height: 1.5;
+  margin: 0;
+  margin-bottom: 1rem;
+}
+p:last-child {
+  margin-bottom: 0;
+}
+
 .max-width-wrapper {
-  padding-left: 264px;
+  max-width: 800px;
+  margin: 0 auto;
+  padding: 0 24px;
+}
+
+/* padding-left: 264px;
+  padding-top: 96px; */
+
+.h1 {
+  font-size: 2rem;
+  line-height: 1.2;
+  margin: 0;
+  margin-bottom: 3rem;
+}
+
+.intro-chunk {
+  max-width: 415px;
   padding-top: 96px;
-}
-
-.title {
-  size: 4rem;
-  width: 180px;
-  font-weight: 800;
-}
-
-.subtitle {
-  width: 415px;
-  size: 2.5rem;
-  font-weight: 400;
+  padding-bottom: 64px;
 }
 
 .subtitle p:first-of-type {
@@ -35,32 +54,27 @@ body {
   color: #009966;
 }
 
-section.max-width-wrapper {
+main {
   background-color: #666666;
-  padding-left: 240px;
-  padding-right: 240px;
-  padding-top: 72px;
-  padding-bottom: 66px;
-  margin-top: 64px;
+  padding: 64px 0px;
 }
 
 .card {
-  max-width: 800px;
-  height: 321px;
   background-color: #ffffff;
-  border: 1px solid #999999;
   border-bottom: 8px solid #999999;
+  padding: 24px;
+  margin: 0 -24px;
 }
 
 .indented-heading {
-  width: 398px;
-  background-color: #ffbf00;
-  padding: 16px;
-  margin-left: -8px;
-  margin-top: 8px;
-  border: 1px solid #cc9900;
-}
-
-.card p {
-  padding: 0 24px;
+  width: fit-content;
+  font-size: 1.5rem;
+  line-height: 1.2;
+  margin: 0;
+  margin-left: -32px;
+  margin-top: -16px;
+  margin-bottom: 1rem;
+  padding: 16px 32px;
+  background: hsl(45deg 100% 50%);
+  border-bottom: 8px solid hsl(45deg 100% 40%);
 }
